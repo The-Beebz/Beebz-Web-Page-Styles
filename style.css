@@ -155,6 +155,7 @@ body {
     background-color: var(--miedo-content-container-color);
     color: var(--miedo-content-text);
     border: .25rem solid var(--miedo-content-container-border);
+    height:fit-content;
 }
 
 .siteBodyGutter {
