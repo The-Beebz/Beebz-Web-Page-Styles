@@ -25,7 +25,7 @@ Website Colors
     --miedo-spoiler-container-border:#8f3c55;
     --miedo-spoiler-container-color:#8f5164;
     --miedo-heading-text:#1d2c72;
-    --miedo-content-text:#003546;
+    --miedo-content-text:#001e46;
     --miedo-accent-text:#541c81;
 }
 
@@ -65,16 +65,20 @@ h1,h2,h3 {
 h1 {
     font-size: 2rem;
     padding-bottom:1rem;
+    font-weight: bolder;
     color: var(--miedo-heading-text)
 }
 
 h2 {
     font-size: 1.5rem;
     padding-bottom:.5rem;
+    font-weight:bold;
     color: var(--miedo-accent-text)
 }
 h3 {
     font-size: 1.25rem;
+    font-weight:bold;
+    color: var(--miedo-accent-text)
 }
 
 
