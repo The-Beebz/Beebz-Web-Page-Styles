@@ -109,7 +109,7 @@ body {
     background-color:var(--miedo-site-navbar-color);
     padding:1rem;
     padding-bottom:0;
-    margin: 4rem 0 0 0;
+    margin: 2rem;
     width:100%;
     border: .25rem solid var(--miedo-site-navbar-border);
     border-left:none;
