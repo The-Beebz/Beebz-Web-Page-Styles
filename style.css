@@ -102,7 +102,6 @@ body {
 
 .welcomeHeaderImage {
     max-height: 250px;
-    border-bottom: .25rem solid var(--miedo-site-navbar-border);
 }
 
 .welcomeHeaderContainer {
@@ -117,8 +116,7 @@ body {
     padding-bottom:0;
     margin: 2rem;
     width:100%;
-    border: .25rem solid var(--miedo-site-navbar-border);
-    border-left:none;
+    border: .25rem solid var(--miedo-site-navbar-border); 
 }
 
 .siteNavbar {
@@ -126,8 +124,6 @@ body {
     border: .25rem solid var(--miedo-site-navbar-border);
     color:var(--miedo-site-navbar-text);
     padding: .5rem;
-    width: 80%;
-    margin:auto;
 }
 
 .siteFooter { 
