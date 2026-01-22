@@ -139,16 +139,6 @@ body {
     display:flex;
 }
 
-.siteBodySidebar{
-    width:30%;
-    padding: 1.25rem;
-    margin: .25rem;
-    background-color: var(--miedo-content-container-color);
-    color: var(--miedo-content-text);
-    border: .25rem solid var(--miedo-content-container-border);
-    max-width: 400px;
-}
-
 .siteBodyMain {
     width: 70%;
     padding: 1.5rem;
@@ -158,6 +148,16 @@ body {
     border: .25rem solid var(--miedo-content-container-border);
     height:fit-content;
     max-width: 800px;
+}
+
+.siteBodySidebar{
+    width:30%;
+    padding: 1.25rem;
+    margin: .25rem;
+    background-color: var(--miedo-content-container-color);
+    color: var(--miedo-content-text);
+    border: .25rem solid var(--miedo-content-container-border);
+    max-width: 400px;
 }
 
 .siteBodyGutter {
