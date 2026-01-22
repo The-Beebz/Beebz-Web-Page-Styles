@@ -92,7 +92,6 @@ body {
     /* background-color:purple; */
     margin: auto;
     padding:auto;
-    display:flex;
 }
 
 .welcomeHeaderImage {
@@ -127,10 +126,10 @@ body {
 }
 
 .siteFooter { 
-    margin-top:2rem;
-    margin-bottom: 0;
+    margin:2rem;
     padding:1rem;
-    background-color: var(--miedo-site-navbar-border);
+    background-color: var(--miedo-site-navbar-color);
+    border: .25rem solid var(--miedo-site-navbar-border);
 }
 
 /* Site Body Wrappers */
