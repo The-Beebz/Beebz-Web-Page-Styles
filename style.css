@@ -89,46 +89,49 @@ body {
 }
 
 .siteWrapper {
-    margin: auto 1rem;
+    margin: auto 1.5rem;
     /* background-color:black; */
-    max-width: 1800px;
 }
 
 .welcomeHeader {
     /* background-color:purple; */
-    margin: auto;
-    padding:auto;
-}
-
-.welcomeHeaderImage {
-    max-height: 250px;
 }
 
 .welcomeHeaderContainer {
-    display:flex;
-    width:100%;
     color: var(--miedo-site-navbar-text);
+    display:flex;
 }
 
-    .welcomeHeaderBanner {
+.welcomeHeaderBanner {
     background-color:var(--miedo-site-navbar-color);
     padding:1rem;
-    padding-bottom:0;
     margin: 2rem;
-    width:100%;
+    width:80%;
+    max-width: 1600px;
     border: .25rem solid var(--miedo-site-navbar-border); 
 }
 
+.welcomeHeaderImage {
+    float:left;
+    padding-right:1rem;
+}
+
 .siteNavbar {
-    background-color: var(--miedo-site-navbar-color);
-    border: .25rem solid var(--miedo-site-navbar-border);
-    color:var(--miedo-site-navbar-text);
-    padding: .5rem;
+/*     background-color: var(--miedo-site-navbar-color); */
+/*     border: .25rem solid var(--miedo-site-navbar-border); */
+    color:var(--miedo-site-navbar-text);    
+    font-size: 1.5rem;
+    font-weight:bold;
+    font-family: Merriweather;
+    padding:1rem;
+
 }
 
 .siteFooter { 
     margin:2rem;
     padding:1rem;
+    width: 80%;
+    max-width: 1600px;
     background-color: var(--miedo-site-navbar-color);
     border: .25rem solid var(--miedo-site-navbar-border);
 }
