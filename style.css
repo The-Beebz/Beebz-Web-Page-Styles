@@ -16,17 +16,17 @@ Website Colors
 :root{
     --miedo-site-background-color:#496ca8;
     --miedo-site-navbar-border:#004d64;
-    --miedo-site-navbar-color:#77b9d5;
-    --miedo-site-navbar-text:#003257;
+    --miedo-site-navbar-color:#a0cafd;
+    --miedo-site-navbar-text:#004357;
     --miedo-content-container-border:#184974;
     --miedo-content-container-color:#a0cafd;
     --miedo-accent-container-border:#573a70;
     --miedo-accent-container-color:#DDB9f8;
     --miedo-spoiler-container-border:#8f3c55;
     --miedo-spoiler-container-color:#8f5164;
-    --miedo-spoiler-text:#59222d;
+    --miedo-heading-text:#1d2c72;
     --miedo-content-text:#003546;
-    --miedo-accent-text:#402357;
+    --miedo-accent-text:#541c81;
 }
 
 /* Text Style and Behavior */
@@ -65,12 +65,13 @@ h1,h2,h3 {
 h1 {
     font-size: 2rem;
     padding-bottom:1rem;
-    color: var(--miedo-content-text)
+    color: var(--miedo-heading-text)
 }
 
 h2 {
     font-size: 1.5rem;
     padding-bottom:.5rem;
+    color: var(--miedo-accent-text)
 }
 h3 {
     font-size: 1.25rem;
@@ -86,6 +87,7 @@ body {
 .siteWrapper {
     margin: auto 1rem;
     /* background-color:black; */
+    max-width: 1800px;
 }
 
 .welcomeHeader {
@@ -144,6 +146,7 @@ body {
     background-color: var(--miedo-content-container-color);
     color: var(--miedo-content-text);
     border: .25rem solid var(--miedo-content-container-border);
+    max-width: 400px;
 }
 
 .siteBodyMain {
@@ -154,6 +157,7 @@ body {
     color: var(--miedo-content-text);
     border: .25rem solid var(--miedo-content-container-border);
     height:fit-content;
+    max-width: 800px;
 }
 
 .siteBodyGutter {
