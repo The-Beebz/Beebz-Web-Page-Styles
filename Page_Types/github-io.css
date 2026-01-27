@@ -1,0 +1,26 @@
+body {
+    background-color: #484749;
+}
+
+h1,h2,h3 {
+    color:#0d0d0e;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.siteBodyQuizWindow {
+    width: 50%;
+    min-width: 350px;
+    padding: 1.5rem;
+    background-color: #9ca7a6;
+    display:block;
+    border: #313031 solid .25rem;
+    border-radius:  .5rem;
+}
+
+.siteBodyQuizWindow h2 {
+    padding:1rem;
+}
+
+.siteBodyQuizWindow p {
+    font-size: 1.25rem;
+}

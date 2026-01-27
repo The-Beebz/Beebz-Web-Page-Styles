@@ -149,7 +149,6 @@ body {
 .siteBodyMain {
     width: 70%;
     padding: 1.5rem;
-    margin: .25rem;
     background-color: var(--miedo-content-container-color);
     color: var(--miedo-content-text);
     border: .25rem solid var(--miedo-content-container-border);
