@@ -81,6 +81,10 @@ h3 {
     color: var(--miedo-accent-text)
 }
 
+.centerContainer div {
+    margin-left:auto !important;
+    margin-right: auto !important;
+}
 
 /* Define Skeleton and Containers */
 
