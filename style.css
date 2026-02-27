@@ -13,6 +13,8 @@ padding: 0;
 Website Colors
 */
 
+/* ? May benefit from Renaming */
+
 :root{
     --miedo-site-background-color:#496ca8;
     --miedo-site-navbar-border:#004d64;
@@ -57,6 +59,12 @@ p {
     padding:.75rem;
     line-height: 1.75rem;
 }
+li {
+    font-family: "Open Sans", Verdana, sans-serif;
+    font-size: 1rem; 
+    line-height: 1.75rem;
+    margin:1rem;
+}
 
 h1,h2,h3 {
     font-family: Merriweather, Garamond, serif;
@@ -81,6 +89,10 @@ h3 {
     color: var(--miedo-accent-text)
 }
 
+strong {
+    color: var(--miedo-heading-text);
+}
+
 .centerContainer div {
     margin-left:auto !important;
     margin-right: auto !important;
@@ -97,9 +109,6 @@ body {
     /* background-color:black; */
 }
 
-.welcomeHeader {
-    /* background-color:purple; */
-}
 
 .welcomeHeaderContainer {
     color: var(--miedo-site-navbar-text);
@@ -158,7 +167,7 @@ body {
 
 .siteBodySidebar{
     width:30%;
-    padding: 1.25rem;
+    padding: 2rem;
     margin: .25rem;
     background-color: var(--miedo-content-container-color);
     color: var(--miedo-content-text);
@@ -166,11 +175,14 @@ body {
     max-width: 400px;
 }
 
+/* ? Not really used that much, maybe reserved for memey pages, or make it so that x amount of 88x31 buttons can fit */
+
 .siteBodyGutter {
-    width: 15%;
+    width: 20%;
     padding: 1rem;
     margin: .25rem;
     background-color: var(--miedo-accent-container-color);
     color: var(--miedo-accent-text);
     border: .25rem solid var(--miedo-accent-container-border);
+    max-width: 250px;
 }
